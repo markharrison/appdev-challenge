@@ -12,7 +12,7 @@ sidebar_label: 'Day 1 - Task 8'
   - See Appendix B for IoT Simulator
 - Alternatively using something else – perhaps Kafka … but you will need to build your own IoT simulator
 
-![](../images/Slide11.png)
+![](../images/slide11.png)
 
 Useful Resources:
 

@@ -6,7 +6,7 @@ sidebar_label: 'Introduction'
 
 # Azure AppDev Challenge
 
-![banner](Images/banner.png)
+![banner](images/banner.png)
 
 18 September 2019 ... updated 11 January 2022
 

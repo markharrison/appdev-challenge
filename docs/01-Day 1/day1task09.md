@@ -15,7 +15,7 @@ sidebar_label: 'Day 1 - Task 9'
 - Amend Web Application to allow an operator to reset an alarm
   - Call API application to set Status = Green
 
-![](../images/Slide12.png)
+![](../images/slide12.png)
 
 Useful Resources:
 
