@@ -8,7 +8,7 @@ const config = {
   title: 'Azure AppDev Challenge',
   tagline: 'Azure AppDev Challenge',
   url: 'https://markharrison.io',
-  baseUrl: '/AppDevChallenge/',
+  baseUrl: '/appdevchallenge/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
