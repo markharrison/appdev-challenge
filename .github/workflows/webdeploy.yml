@@ -2,29 +2,28 @@ on:
   workflow_dispatch:
   push:
     branches:
-    -main
+    - main
      
 jobs:
   webdeploy:
     runs-on: ubuntu-latest
 
     steps:
-  -uses: actions/checkout@v2
+    - uses: actions/checkout@v2
     
-  -uses: actions/setup-node@v2
+    - uses: actions/setup-node@v2
       with:
         node-version: 16    
 
-  -name: Install npm packages 
+    - name: Install npm packages 
       run: |
         npm config set package-lock false
         npm i
-
-  -name: Build site
+    - name: Build site
       run: |
         npm run build
          
-  -name: Deploy to GitHub Pages
+    - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
