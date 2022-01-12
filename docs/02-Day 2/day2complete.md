@@ -8,3 +8,10 @@ sidebar_label: 'Day 2 - Complete Solution'
 ## Day 2 - Complete Solution
 
 ![](../images/slide28.png)
+
+
+![](../images/completed1.png)
+
+![](../images/completed2.png)
+
+![](../images/completed3.png)
