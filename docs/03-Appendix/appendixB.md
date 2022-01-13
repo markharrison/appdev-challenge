@@ -5,7 +5,7 @@ sidebar_label: 'Appendix B'
 ---
 # Azure AppDev Challenge
 
-# Appendix B – IOT Simulator
+## Appendix B – IOT Simulator
 
 The IOT Simulator is a containerised .NET console app that will generate simulated alarm events and publish those events to an Azure Event Grid Topic (that you need to create - refer to Appendix G for help).
 
@@ -19,13 +19,13 @@ e.g. <https://thingsstorage.blob.core.windows.net/iotphotos/photo01.png>
 
 The intent is for you to determine the status of the alarm (is it a false positive or not) by for example using the vision cognitive services and analysing the images to determine the threat they represent.
 
-## Running the IOT Simulator container 
+### Running the IOT Simulator container 
 
 The container image can be found here: <https://hub.docker.com/r/markharrison/alarms-iot-simulator>  
 
 The IOT Simulator source code is here if of interest: <https://github.com/markharrison/AlarmsIOTSimulator>
 
-### Using Docker CLI locally
+#### Using Docker CLI locally
 
 ```
 docker run -e AlarmTopic="YOURENDPOINT" 
@@ -44,14 +44,14 @@ docker run -e AlarmTopic='https://thingseventgrid.northeurope-1.eventgrid.azure.
     markharrison/alarms-iot-simulator
 ```
 
-### Using Azure Container Instance
+#### Using Azure Container Instance
 
 ```
 az container create --resource-group YOURRG --name YOURNAME 
     --image markharrison/alarms-iot-simulator --restart-policy Never 
     --environment-variables AlarmTopic=YOURENDPOINT AlarmKey=YOURKEY AlarmImageRoot=imageurl
 ```
-### Other parameter options
+#### Other parameter options
 
 The readme in the GitHub repository includes more information on the required and optional parameters. 
 
