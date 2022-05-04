@@ -1,6 +1,6 @@
 # Azure AppDev Challenge
 
-Documentaion Website: https://markharrison.io/appdev-challenge/
+AppDev Challenge Website: https://markharrison.io/appdev-challenge/
 
 This two-day event is a challenge-oriented hack where participants will be assigned to teams and attempt to solve a series of tasks to build up a complete working solution in Azure. The event is intended for technical architects and developers who want to pick up new skills, learn by being hands-on and work with others to share skills & ideas to collectively steer the team in the right direction.
 
